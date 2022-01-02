@@ -1,10 +1,13 @@
 :root {
   --light: #ffffff;
   --dark: #292929;
+  --text: #8a8686;
 }
 
 .content {
   background-color: #000000;
+  color: var(--light);
+  font-family: "Oswald", sans-serif;
 }
 
 /* The side navigation menu */
@@ -20,7 +23,6 @@
 
 /* Center the Sidebar Menu Text */
 .sidebar-heading {
-  margin-top: 7px;
   text-align: center;
   border-bottom: solid var(--light) 1px;
 }
@@ -38,11 +40,10 @@
   color: white;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+/* Page content */
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
-  height: 1000px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -70,4 +71,76 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+
+/* Align header and image to the center of the page and apply spacing */
+.head-container {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+#main-image {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#name {
+  font-size: 72px;
+  margin-bottom: 4vh;
+}
+
+#title {
+  font-size: 21px;
+  margin-bottom: 2vh;
+}
+
+/* About section styling */
+.about-container {
+  margin-top: 10vh;
+}
+
+.main-text {
+  color: var(--text);
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.html {
+  width: 95%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 90%;
+  background-color: #2196f3;
+}
+.bs {
+  width: 90%;
+  background-color: #f54337;
+}
+.js {
+  width: 80%;
+  background-color: #808080;
+}
+
+.skill-text {
+  color: var(--text);
+  text-align: center;
+  margin: 15px 0 15px 0;
 }
