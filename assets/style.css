@@ -35,10 +35,10 @@
 }
 
 /* Links on mouse-over */
-.sidebar a:hover:not(.active) {
+/* .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
-}
+} */
 
 /* Page content */
 div.content {
