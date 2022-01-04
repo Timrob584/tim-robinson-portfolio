@@ -189,6 +189,7 @@ div.content {
   margin-bottom: 75px;
 }
 
+/* Resume Section */
 .resume-container {
   margin: 5vh 0 5vh 0;
   border: solid var(--light) 2px;
@@ -201,4 +202,15 @@ div.content {
 
 a:link {
   color: var(--dark);
+}
+
+/* Contact Section */
+.contact-text {
+  font-size: 20px;
+  color: var(--text);
+  margin: 2vh 0 0 5vw;
+}
+
+#phone {
+  margin-left: 1vw;
 }
