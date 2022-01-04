@@ -63,6 +63,11 @@ div.content {
     border-bottom: none;
     margin-top: 10px;
   }
+
+  .works-image-left,
+  .works-image-right {
+    width: 100%;
+  }
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
@@ -70,6 +75,14 @@ div.content {
   .sidebar a {
     text-align: center;
     float: none;
+  }
+
+  div.resume-container {
+    width: 40vw;
+  }
+
+  .contact-text {
+    width: 100%;
   }
 }
 
@@ -208,9 +221,5 @@ a:link {
 .contact-text {
   font-size: 20px;
   color: var(--text);
-  margin: 2vh 0 0 5vw;
-}
-
-#phone {
-  margin-left: 1vw;
+  margin: 2vh 5vw 0 0;
 }
