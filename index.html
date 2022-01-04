@@ -85,11 +85,13 @@
           alt="Tim Robinson"
         />
       </div>
+
+      <!-- About Section -->
       <div class="about-container">
         <h1 id="about">About Me</h1>
         <div>
           <p class="main-text">
-            Hello, My name is Timothy Robinson. As a soon-to-be graduate of UNC
+            Hello, my name is Timothy Robinson. As a soon-to-be graduate of UNC
             Chapel-Hill, I am proud to be a Front End Developer. Over the past
             year, I have worked extensively on developing my front-end skills
             and have become proficient in HTML, CSS including libraries like
@@ -111,6 +113,7 @@
         </div>
       </div>
 
+      <!-- Skills Section -->
       <div class="skills-container">
         <h1 id="skill">Skills</h1>
         <p class="skill-text">HTML</p>
@@ -134,14 +137,156 @@
         </div>
       </div>
 
+      <!-- Works Section -->
       <div class="work-container">
         <h1 id="work">Works</h1>
+        <div class="row">
+          <img
+            src="assets/images/Check-Mate.png"
+            alt="budget app"
+            class="works-image-right"
+          />
+          <p class="text-right">
+            Check-mate is a full-stack web application for keeping track of your
+            expenses and setting smart savings goals. The application uses
+            node.js, express.js, mySQL, and Sequelize to keep track of users,
+            their transactions, and their budget goals on the back end and
+            Chart.js, Bootstrap, and Handlebars to visualize every users
+            personal information.
+            <br />
+            <br />
+            <b>Instructions:</b> Users must register to use the program by
+            selecting 'Register Here' on the login page. After registering,
+            users can login in a view their budget and transaction data. Budgets
+            can be set on the left via 'Edit Budget'; income and expenses can be
+            added similarly via 'Add Income or Expense'. Adding budgets and
+            expenses will update the cards in the center of the application: the
+            donut chart will reflect the amount spent in various categories, the
+            line chart will show how much was spent each day, and the monthly
+            expenses table will show details on that months expenses. Details
+            about all transactions and budget info can be seen by selecting
+            'Budget Page' and 'Transaction Page' on the left.
+            <br />
+            <br />
+            <a
+              href="https://check-mate-finance-tool.herokuapp.com/"
+              class="live-site"
+              >Live Site</a
+            >
+            <a href="https://github.com/Timrob584/check-mate">Github</a>
+          </p>
+        </div>
+        <div class="row">
+          <p class="text-left">
+            IP Address Tracker is a Front-End application to display location
+            when searching an ip address. The application utilizes the IP
+            Geolocation API by IPify as well as the LeafletJS mapping API to
+            provide the user with not only the city and state, but also a map of
+            the grographical area.
+            <br />
+            <br />
+            <b>Instructions:</b> Users must enter a valid IP Address into the
+            search bar. After searching for a valid IP Address, the IP Address,
+            Location, Timezone, and ISP information will be populated along with
+            the gropgraphical map.
+            <br />
+            <br />
+            <a
+              href="https://timrob584.github.io/ip-address-tracker/"
+              class="live-site"
+              >Live Site</a
+            >
+            <a href="https://github.com/Timrob584/ip-address-tracker">Github</a>
+          </p>
+          <img
+            src="assets/images/ip_address.jpg"
+            alt="ip-tracker"
+            class="works-image-left"
+          />
+        </div>
       </div>
-
-      <div class="resume-container">
+      <div class="row">
+        <img
+          src="assets/images/stock-and-crypto-app.png"
+          alt="ip-tracker"
+          class="works-image-right"
+        />
+        <p class="text-right">
+          Coder Finance was my first project working with a team. Due to the
+          time crunch and challenges that arose when learning to work in a team
+          environment for the first time, we opted to go for a very simplistic
+          UI and focus primarily on the functionality. There is a lot that we
+          were not able to do with this project, but there was a lot that was
+          learned at the same time. Through this project, I got a much better
+          understanding of the functionality of Bootstrap and Bootstrap Cards.
+          For future development, I would want to do a re-design of the
+          application to make it mobile responsive.
+          <br />
+          <br />
+          This app is a simple interface that combines a traditional stock
+          dashboard with cryptocurrency data, displaying both in a similar time
+          frame. When a stock or cypto symbol is entered in to their respective
+          search box, a graph be will created showing the 100 day perfromance of
+          that asset. The intent is for a user to view the two financial assets
+          in a comparable way, letting them see a quick snapshot for the crypto
+          and stock of their choice in a way that shows them as equals. Data for
+          stock is pulled from the AlphaVantage API and crypto data is pulled
+          form Polygon.io API
+          <br />
+          <br />
+          <b>Instructions:</b> Users input a valid Stock or Crypto into their
+          corresponding search fields. The application will then display current
+          data for the searched stock. If an incorrect stock or crypto is
+          searched, an error will pop up prompting the user to input a valid
+          stock or crypto.
+          <br />
+          <br />
+          <a
+            href="https://aliciachen10.github.io/stock-and-crypto-app/"
+            class="live-site"
+            >Live Site</a
+          >
+          <a href="https://github.com/Timrob584/stock-and-crypto-app">Github</a>
+        </p>
+      </div>
+      <div class="row">
+        <p class="text-left">
+          IP Address Tracker is a Front-End application to display location when
+          searching an ip address. The application utilizes the IP Geolocation
+          API by IPify as well as the LeafletJS mapping API to provide the user
+          with not only the city and state, but also a map of the grographical
+          area.
+          <br />
+          <br />
+          <b>Instructions:</b> Users must enter a valid IP Address into the
+          search bar. After searching for a valid IP Address, the IP Address,
+          Location, Timezone, and ISP information will be populated along with
+          the gropgraphical map.
+          <br />
+          <br />
+          <a
+            href="https://timrob584.github.io/ip-address-tracker/"
+            class="live-site"
+            >Live Site</a
+          >
+          <a href="https://github.com/Timrob584/ip-address-tracker">Github</a>
+        </p>
+        <img
+          src="assets/images/ip_address.jpg"
+          alt="ip-tracker"
+          class="works-image-left"
+        />
+      </div>
+      <!-- Resume Section -->
+      <div>
         <h1 id="resume">Resume</h1>
+        <div class="resume-container">
+          <i class="fa fa-download"></i>
+          <a href="assets/images/Resume.docx" download>Download Resume </a>
+        </div>
       </div>
 
+      <!-- Contact Section -->
       <div class="contact-container">
         <h1 id="contact">Contact Me</h1>
       </div>

@@ -103,17 +103,17 @@ div.content {
 
 .main-text {
   color: var(--text);
+  margin: 2vh 0 15vh 0;
 }
 
-/* Make sure that padding behaves as expected */
+/* Skills Section */
 * {
   box-sizing: border-box;
 }
 
-/* Container for skill bars */
 .container {
-  width: 50%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 50%;
+  background-color: #ddd;
 }
 
 .skills {
@@ -143,4 +143,62 @@ div.content {
   color: var(--text);
   text-align: center;
   margin: 15px 0 15px 0;
+}
+
+#about,
+#skill,
+#work,
+#resume,
+#contact {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Works Section */
+
+#work,
+#resume {
+  margin-top: 15vh;
+}
+
+.works-image-right,
+.works-image-left {
+  width: 40%;
+  height: 400px;
+}
+
+.text-right,
+.text-left {
+  color: var(--text);
+  width: 55%;
+  margin-left: 5px;
+}
+
+.live-site {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: solid var(--text) 2px;
+}
+
+.works-image-left {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.row {
+  margin-bottom: 75px;
+}
+
+.resume-container {
+  margin: 5vh 0 5vh 0;
+  border: solid var(--light) 2px;
+  width: 11vw;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  background-color: var(--text);
+  color: var(--dark);
+}
+
+a:link {
+  color: var(--dark);
 }
