@@ -22,11 +22,6 @@
   overflow: auto;
 }
 
-#side-pic {
-  width: 100%;
-  height: 25%;
-}
-
 /* Center the Sidebar Menu Text */
 .sidebar-heading {
   text-align: center;
